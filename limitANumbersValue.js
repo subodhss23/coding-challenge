@@ -20,6 +20,8 @@
          console.log(rangeLow);
      } else if ( num > rangeHigh){
          console.log(rangeHigh);
+     } else{
+         console.log(num);
      }
  }
 
@@ -27,3 +29,4 @@
  limitNumber(-3, 1, 10);
  limitNumber(14, 1, 10);
  limitNumber(4.6, 1, 10);
+ limitNumber(2,2,2)
