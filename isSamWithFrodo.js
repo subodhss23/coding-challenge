@@ -11,7 +11,5 @@ function middleEarth(arr){
  console.log('false'); 
 }
 
-middleEarth(["Sam", "Frodo", "Gandalf"]);
-// middleEarth(["Frodo", "Saruman", "Sam"]);
-// middleEarth(["Orc", "Sam", "Frodo", "Legolas"])
-
+middleEarth(['Sam', 'Frodo', 'Saruman']);
+middleEarth(['Orc', 'Frodo', 'Legolas', 'Sam']);
