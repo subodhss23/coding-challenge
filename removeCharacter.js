@@ -15,7 +15,4 @@ function removeFirstLast(str){
     }
 }
 
-let string = "string";
-console.log(string.length);
-
 removeFirstLast('whatisthat?');
