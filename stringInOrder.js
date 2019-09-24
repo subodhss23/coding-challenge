@@ -17,10 +17,3 @@ function isInOrder(str){
 }
 
 isInOrder("abcdef")
-
-if(str === sortedArr){
-    return true;
-} else {
-    return false;
-}
-}
