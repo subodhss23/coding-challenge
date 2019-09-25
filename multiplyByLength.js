@@ -3,7 +3,7 @@
 
 
 function MultiplyByLength(arr){
-    let newarr =arr.map((x) => x * arr.length);
+    let newarr = arr.map((x) => x * arr.length);
     console.log(newarr);
 }
 
