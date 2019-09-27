@@ -4,8 +4,13 @@
 
 function nthSmallest(arr, n) {
     arr = arr.sort();
-	console.log((arr[n-1]));
+    if(n <= arr.length ){
+        console.log((arr[n-1]));
+    } else {
+        console.log('null');
+    }
+	
 }
 
-nthSmallest([1, 3, 5, 7], 1); //1
+nthSmallest([1, 3, 5, 7], 4); //1
 // nthSmallest([1, 3, 5, 7], 3) // 5
