@@ -3,10 +3,14 @@
 
 function checkEquals(arr1, arr2){
    if(JSON.stringify(arr1) === JSON.stringify(arr2)){
-       return true;
+       console.log('true');
    } else {
-       return false;
+       console.log('false');
    }
 }
 
-checkEquals([1,2],[2,1]);
+// function checkEquals(arr1, arr2){
+//     console.log(arr1.toString() === arr2.toString());
+// }
+
+checkEquals([1,2],[1,2]);
