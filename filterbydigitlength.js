@@ -19,7 +19,7 @@ let length = arr.map(item => {
 console.log(newarr);
 }
 
-//alternate
+//alternate and simpler
 function filterDigitLength(arr, num){
     console.log(arr.filter(x => x.toString().length === num));
 }

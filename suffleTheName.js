@@ -3,7 +3,7 @@
 // name swapped.
 
 function nameShuffle(str){
-    let newarr = (str.split(' ').reverse()).join(' ');
+    let newarr = str.split(' ').reverse().join(' ');
     console.log(newarr);
 }
 
